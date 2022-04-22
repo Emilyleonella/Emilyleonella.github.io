@@ -81,5 +81,135 @@ padding:150px;
   padding-bottom: 50px;
 }
   
+  
 /* Hero on todo page*/
-.imgT
+.imgTD{ 
+  background-image: url(https://lp-cms-production.imgix.net/features/2018/06/Quito_Ecuador-56f41a5bc901.jpg);
+  height: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0px;
+  padding:150px;
+  }
+  
+  .explore{
+    text-align: center;
+    color:white;
+    font-size: 7em;
+    position:relative; 
+    top:-60px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  
+    
+  /*images on the to do page*/
+  .images{
+    border-radius:27px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  .para{
+    margin:30px;
+    font-size: 20px;
+    
+  }
+  
+  
+  
+  h2{
+    text-align: center;
+    padding: 10px;
+  }
+  /* Footer*/
+  .logo{
+    height:30px;
+    display: inline; /* makes logo side by side*/
+    
+  }
+  .logo2{
+    height:30px;
+    /* center the logo*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  footer{
+    background-color: #333;
+    height: 90px;
+    text-align: center;
+    padding-top: 10px;
+    }
+  
+  .copyright{
+    color: white;
+  }
+  /* End of footer*/
+  
+  /* hero on contact*/
+  .hero3{ 
+  background-image: url(https://www.nationsonline.org/gallery/Ecuador/Cotopaxi-volcano.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0px;
+  padding:167px;
+  }
+  
+  .welcomeContact{ 
+    color: white;
+    text-align:center;
+    font-size:4em;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  /* contact container */
+  .contact{
+    text-align: center;
+    background-color: aliceblue;
+    width: 400px;
+    margin:5px;
+    margin-left:auto;
+    margin-right:auto;
+    border-style:solid; 
+  }
+  
+  .forms{
+    margin:30px;
+    font-size:20px;
+    text-align: left;
+  }
+  /* textbox*/
+  input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  /* submit button*/
+  button{
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:#333;
+    color: white;
+    position: relative;
+    top: -15px;
+  }
+  button:hover{
+    background-color:grey;
+  }
