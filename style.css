@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.eculogo{
+height:70px;
+float:left;
+margin-top:-21px;
+margin-left:20px;}
+
+body{
+  background-color:antiquewhite;
+  }
+/* nav bar*/
+
+  nav {
+    height:80px;
+    width: 100%;
+    position: relative; /* position: relative places an element relative to its current position (within HTML)without changing the layout around it. */
+    z-index: 1; /* z-index is the verticality of any container on the webpage. Everything has a base value of 0, so giving it any value higher than 0 gives it priority. */
+  }
+ 
+ ul {
+  list-style-type: none; /* takes bullet points away */
+  display: flex;
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-bottom: 18px;
+  overflow: hidden;
+  justify-content: space-between;
+  background-color: #333;
+}
+/* a tag on nav bar */
+.anav {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size:20px;
+}
+li a:hover {
+  transition: 1s;
+  font-size: 27px;
+  color: grey;
+  }
+/* Hero on Home page*/
+.img-container{ 
+background-image: url(https://static.onecms.io/wp-content/uploads/sites/28/2019/12/galapagos-islands-ecuador-GALAPA1104.jpg);
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+margin: 0px;
+padding:150px;
+}
+
+.welcome{ 
+  color: white;
+  text-align:center;
+  font-size:4em;
+  text-shadow: 2px 2px 4px #000000;
+}
+.htog{
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+/* home page intro*/
+.paraintro{
+  display: flex;
+  font-size: 25px;
+  margin: 30px;
+  }
+.ecuflag{
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+  
+/* Hero on todo page*/
+.imgT
